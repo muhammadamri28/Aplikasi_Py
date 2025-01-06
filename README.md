@@ -49,9 +49,9 @@ pip install -r requirements.txt
 ### 3. **Konfigurasi Database MySQL**
 Buat database MySQL:
 ```bash
-CREATE DATABASE test_db;
-USE test_db;
-CREATE TABLE items (
+CREATE DATABASE aplikasi_db;
+USE aplikasi_db;
+CREATE TABLE aplikasi (
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(255) NOT NULL,
     description TEXT,
