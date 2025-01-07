@@ -54,8 +54,8 @@ USE aplikasi_db;
 CREATE TABLE aplikasi (
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(255) NOT NULL,
-    description TEXT,
-    price FLOAT NOT NULL
+    kategori VARCHAR(255) NOT NULL,
+    harga FLOAT NOT NULL
 );
 ```
 
