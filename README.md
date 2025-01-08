@@ -67,7 +67,7 @@ CREATE TABLE aplikasi (
 py server.py
 
 ```
-API dapat diakses di http://127.0.0.1:8000. Dokumentasi Swagger tersedia di http://127.0.0.1:8000/docs.
+API dapat diakses di http://127.0.0.1:5000 (default).
 
 ---
 
